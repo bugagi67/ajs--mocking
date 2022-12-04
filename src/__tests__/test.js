@@ -27,9 +27,3 @@ test('test the fetchData function with the status not ok', () => {
 
   expect(result).toMatch(expected);
 });
-
-test('fetchData function test with ok status', () => {
-  fetchData.mockReturnValue({
-    status: 'ok'
-  });
-});
