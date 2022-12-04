@@ -1,0 +1,32 @@
+{
+  "name": "ajs-mocking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "babel": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugagi67/ajs-test-clear-function.git"
+  },
+  "author": "bugagi67",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugagi67/ajs-test-clear-function/issues"
+  },
+  "homepage": "https://github.com/bugagi67/ajs-test-clear-function#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "core-js": "^3.26.1",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^29.3.1"
+  },
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/4jcvghm6gtht8429?svg=true)](https://ci.appveyor.com/project/bugagi67/ajs-matchers)"
+}
