@@ -2,6 +2,11 @@
   "name": "ajs-mocking",
   "version": "1.0.0",
   "main": "index.js",
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/http.js"
+    ]
+  },
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint .",
